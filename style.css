@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #222;
+  }
+  
+  .correct {
+    background-color: #538d4e;
+  }
+  
+  .present {
+    background-color: #b59f3b;
+  }
+  
+  .absent {
+    background-color: #3a3a3c;
+  }
+  
+  input {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .message {
+    margin-top: 10px;
+  }
+  
